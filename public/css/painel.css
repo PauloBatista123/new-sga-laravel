@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 48px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    width: 100%;
+    height: 90vh;
+}
+
+.container-historico {
+    background-color: aqua;
+    padding: 1rem;
+}
+
+.container-video {
+    background-color: bisque;
+}
+
+.senha-container {
+    border: 1px solid #fff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.modal-body {
+    height: 80vh;
+    color: green;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
